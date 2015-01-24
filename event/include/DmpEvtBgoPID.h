@@ -25,8 +25,8 @@ public:
   std::vector<short> fLayer;
   std::vector<double> fFValue;
   std::vector<double> fSqr_RMS;
-  std::vector<double> fLC_E;//Layer Cluster Energy
-  std::vector<short> fLC_Size;//Layer Cluster Size
+  std::vector<double> fLayerE;//Layer Cluster Energy
+  std::vector<short> fLayerCS;//Layer Cluster Size
 
   short  fSize;
   double fEnergy;

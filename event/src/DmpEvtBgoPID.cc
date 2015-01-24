@@ -22,8 +22,8 @@ void DmpEvtBgoPID::Reset()
 fLayer.clear();
 fFValue.clear();
 fSqr_RMS.clear();
-fLC_E.clear();
-fLC_Size.clear();
+fLayerE.clear();
+fLayerCS.clear();
 
 fSize=0;
 fEnergy=0.;
